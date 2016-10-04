@@ -43,7 +43,6 @@ function don8_register_buttons( $buttons ) {
 
 	return $buttons;
 }
-
 // Give the TinyMCE button a $ instead of an image
 function don8_tinymce_button_style() {
 	echo '<style>i.mce-i-don8:before { content: "$"; }</style>';
